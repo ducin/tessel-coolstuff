@@ -1,15 +1,18 @@
 {
-  "name": "ambient",
-  "version": "0.0.0",
-  "description": "Tessel project",
-  "main": "index.js",
+  "name": "coolstuff",
+  "version": "1.0.0",
+  "description": "Tessel cool stuff - asking people to be quiet",
+  "main": "coolstuff.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "t2 run coolstuff.js"
   },
-  "repository": "www.github.com/tessel/t2-cli",
+  "repository": "https://github.com/ducin/tessel-coolstuff",
   "keywords": [
-    "Tessel"
+    "Tessel",
+    "silence"
   ],
-  "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script."
+  "dependencies": {
+    "ambient-attx4": "^0.2.8",
+    "tessel-av": "^0.7.0"
+  }
 }
